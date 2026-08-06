@@ -26,15 +26,23 @@ pipeline {
     post {
 
         always {
-            archiveArtifacts artifacts: 'reports/health_report.csv', fingerprint: true
+            archiveArtifacts artifacts: 'reports/health_report.csv'
         }
 
         success {
-            echo 'Build completed successfully ✅'
+            emailext(
+                subject: "SUCCESS: Website Monitor",
+                body: "Website monitor pipeline completed successfully.",
+                to: "mussabriaz1368@gmail.com"
+            )
         }
 
         failure {
-            echo 'Build failed ❌'
+            emailext(
+                subject: "FAILED: Website Monitor",
+                body: "Website monitor pipeline failed. Check Jenkins logs.",
+                to: "mussabriaz1368@gmail.com"
+            )
         }
     }
 }
