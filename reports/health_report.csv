@@ -1,0 +1,4 @@
+Website,Status,Status Code,Response Time
+https://google.com,UP ✅,200,1.39
+https://this-domain-does-not-exist-12345.com,DOWN ❌,N/A,N/A
+https://github.com,UP ✅,200,1.70
