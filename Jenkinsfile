@@ -25,12 +25,15 @@ pipeline {
 
     post {
 
-        success {
-            echo 'Build completed successfully ✅'
-        }
+     always {
+        archiveArtifacts artifacts: 'reports/health_report.csv', fingerprint: true
+    }
 
-        failure {
-            echo 'Build failed ❌'
-        }
+     success {
+        echo 'Build completed successfully ✅'
+    }
+
+     failure {
+        echo 'Build failed ❌'
     }
 }
