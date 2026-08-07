@@ -1,8 +1,8 @@
 Website,Status,Status Code,Response Time
-https://google.com,UP ✅,200,1.63
+https://google.com,UP ✅,200,2.36
 https://this-domain-does-not-exist-12345.com,DOWN ❌,N/A,N/A
-https://github.com,UP ✅,200,27.02
-https://python.org,UP ✅,200,2.25
-https://amazon.com,DOWN ❌,503,2.26
-https://microsoft.com,UP ✅,200,5.09
-https://facebook.com,UP ✅,200,2.39
+https://github.com,UP ✅,200,13.92
+https://python.org,UP ✅,200,6.68
+https://amazon.com,DOWN ❌,503,1.81
+https://microsoft.com,UP ✅,200,4.95
+https://facebook.com,UP ✅,200,1.80
