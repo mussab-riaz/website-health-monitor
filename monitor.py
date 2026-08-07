@@ -35,8 +35,7 @@ with open("reports/health_report.csv", "w", newline="") as report:
             response_time = end - start
 
             # Determine website status
-            status = "UP ✅" if response.status_code == 200 else "DOWN ❌"
-
+            status = "UP ✅" if response.status_code < 500 else "DOWN ❌"
             # Print results
             print("--------------------------------")
             print(f"Website: {website}")

@@ -1,5 +1,7 @@
 https://google.com
-
 https://this-domain-does-not-exist-12345.com
-
 https://github.com
+https://python.org
+https://amazon.com
+https://microsoft.com
+https://facebook.com
