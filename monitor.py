@@ -57,7 +57,7 @@ with open("reports/health_report.csv", "w", newline="") as report:
             print("Status: DOWN ❌")
             print(f"Error: {e}")
 
-            # Save failed check to CSV
+            
             writer.writerow([
                 website,
                 "DOWN ❌",
