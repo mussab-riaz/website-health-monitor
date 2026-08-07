@@ -17,4 +17,5 @@ This project uses Jenkins to automate the CI workflow.
 - Email notifications
 
 
-ALL THINSG ARE UPTO DATE 
+
+ALL THINSG ARE UPTO DATE
